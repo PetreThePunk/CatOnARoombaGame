@@ -1,0 +1,32 @@
+{
+	"world": 1,  
+	"level": 1, 
+	"shortestPath": 100, 
+	"longestPath": 5000, 
+	"img": "1.jpg", 
+	"trash": [{
+		"img": "trash.jpg", 
+		"radius": 5, 
+		"pickupCount":  1, 
+		"positionX": 50, 
+		"positionY": 50 
+	}],
+	"obstacles": [{
+		"img": "chair.jpg",
+		"height": 50, 
+		"width": 25, 
+		"radius": undefined,
+		"rotation": 0, 
+		"positionX": 20, 
+		"positionY": 100
+	}, 
+	{
+		"img": "table.jpg",
+		"height": 25, 
+		"width": 300, 
+		"radius": undefined,
+		"rotation": 0, 
+		"positionX": 100, 
+		"positionY": 100
+	}]
+}
